@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularConsumer';
+
+  selected: string;
+  selectionValues: Array<string>;
+
+  constructor() {
+    this.selectionValues = new Array<string>('HP', 'Lenovo', 'Apple', 'Test');
+  }
+
+  onNameChanged(event) {
+    this.selected = event.detail;
+  }
 }
