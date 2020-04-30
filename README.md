@@ -1,4 +1,10 @@
 # AngularConsumer
+Martin Bischof
+
+
+**Diese Angular App verwendet eine Web Component - Auto-Select (*assets/autocomplete.js*). In der App-Component wird die Web Component verwendet.**
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
